@@ -1,5 +1,5 @@
 {
-  "name": "etg24-vue-components",
+  "name": "etg-vue-components",
   "version": "0.0.1",
   "description": "Bundled vue components",
   "main": "HelloWorld.vue",
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/novas1r1/etg24-vue-components.git"
+    "url": "git+https://github.com/novas1r1/etg-vue-components.git"
   },
   "keywords": [
   ],
   "author": "development@verena-zaiser.de",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/novas1r1/etg24-vue-components/issues"
+    "url": "https://github.com/novas1r1/etg-vue-components/issues"
   },
-  "homepage": "https://github.com/novas1r1/etg24-vue-components#readme"
+  "homepage": "https://github.com/novas1r1/etg-vue-components#readme"
 }
