@@ -4,9 +4,12 @@
 	</div>
 </template>
 
-export default {
-	name: 'HelloWorld',
-};
+<script>
+	export default {
+		name: 'HelloWorld',
+	};
+</script>
+
 
 <style>
 	h1 {
