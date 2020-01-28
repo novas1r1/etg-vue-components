@@ -1,1 +1,1 @@
-# vue-components
+# etg24-vue-components
