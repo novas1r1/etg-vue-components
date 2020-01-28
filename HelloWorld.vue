@@ -4,22 +4,16 @@
 	</div>
 </template>
 
-<script>
+<script lang="ts">
 	export default {
 		name: 'HelloWorld',
 	};
 </script>
 
-
-<style>
-	h1 {
-		color: #333;
-	}
-</style>
-<!--<style lang="scss">
+<style lang="scss">
 	$primary-color-h1: '#333';
 
 	h1 {
 		color: $primary-color-h1;
 	}
-</style>-->
+</style>
