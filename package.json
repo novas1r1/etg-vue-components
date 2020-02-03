@@ -6,7 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "storybook:build": "vue-cli-service storybook:build -c config/storybook",
+    "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook"
   },
   "dependencies": {
     "vue": "^2.6.10",
@@ -14,6 +16,12 @@
     "vue-property-decorator": "^8.3.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@storybook/addon-actions": "6.0.0-alpha.3",
+    "@storybook/addon-knobs": "6.0.0-alpha.3",
+    "@storybook/addon-links": "6.0.0-alpha.3",
+    "@storybook/addon-notes": "6.0.0-alpha.2",
+    "@storybook/vue": ">=6.0.0-alpha.3",
     "@types/jest": "^24.0.19",
     "@vue/cli-plugin-eslint": "^4.1.0",
     "@vue/cli-plugin-typescript": "^4.1.0",
@@ -22,6 +30,7 @@
     "@vue/eslint-config-prettier": "^5.0.0",
     "@vue/eslint-config-typescript": "^4.0.0",
     "@vue/test-utils": "1.0.0-beta.29",
+    "babel-loader": "^8.0.4",
     "eslint": "^5.16.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^5.0.0",
@@ -30,6 +39,7 @@
     "prettier": "^1.19.1",
     "sass-loader": "^8.0.0",
     "typescript": "~3.5.3",
+    "vue-cli-plugin-storybook": "^1.2.0",
     "vue-template-compiler": "^2.6.10"
   },
   "gitHooks": {
